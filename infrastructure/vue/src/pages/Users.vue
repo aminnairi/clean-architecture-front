@@ -1,10 +1,7 @@
 <script lang="ts" setup>
-  import { onMounted } from "vue";
-  import { users, error, getUsers } from "../composition/get-users";
+  import { useGetUsers } from "../hooks/get-users";
 
-  onMounted(() => {
-    getUsers();
-  });
+  const { users, error } = useGetUsers();
 </script>
 
 <template>
