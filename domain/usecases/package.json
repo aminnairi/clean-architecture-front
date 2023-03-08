@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "@domain/usecases",
+  "version": "0.1.0",
+  "description": "Domain usecases"
+}

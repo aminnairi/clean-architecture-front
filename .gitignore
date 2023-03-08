@@ -1,0 +1,4 @@
+/node_modules
+/package-lock.json
+/infrastructure/react/node_modules
+/infrastructure/vue/node_modules

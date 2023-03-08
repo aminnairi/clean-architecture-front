@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@domain/entities",
+  "description": "Domain entities",
+  "version": "0.1.0"
+}

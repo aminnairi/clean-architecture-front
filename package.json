@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "domain/entities",
+    "domain/services",
+    "domain/presenters",
+    "domain/usecases",
+    "infrastructure/react",
+    "infrastructure/vue"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@domain/services",
+  "description": "Domain services",
+  "version": "0.1.0"
+}
