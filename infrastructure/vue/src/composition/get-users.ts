@@ -1,4 +1,4 @@
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 import { UserInterface } from "@domain/entities/user";
 import { GetUsersUsecase } from "@domain/usecases/get-users";
 import { UserPresenter } from "../adapters/presenters/user"
@@ -14,5 +14,3 @@ export const getUsers = () => {
 
   usecase.execute();
 };
-
-getUsers();
